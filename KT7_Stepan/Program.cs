@@ -69,7 +69,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("--- Попытка 1: Создание корректного счета ---");
+        Console.WriteLine("-Попытка 1: Создание корректного счета-");
         try
         {
             BankAccount acc1 = new BankAccount("123456", 1000m);
@@ -88,7 +88,7 @@ class Program
             Console.WriteLine($"Ошибка счета: {ex.Message}");
         }
 
-        Console.WriteLine("\n--- Попытка 2: Создание счета с неверным номером ---");
+        Console.WriteLine("\n-Попытка 2: Создание счета с неверным номером-");
         try
         {
             BankAccount acc2 = new BankAccount("12345", 500m);
