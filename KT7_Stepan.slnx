@@ -1,3 +1,8 @@
 <Solution>
+  <Folder Name="/Элементы решения/">
+    <File Path="output_kt7.png" />
+    <File Path="README.md" />
+    <File Path="task_kt7.png" />
+  </Folder>
   <Project Path="KT7_Stepan/KT7_Stepan.csproj" Id="6ae07d14-dfb8-4bf3-803b-560cc921be46" />
 </Solution>
